@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BARBER HOUSE — Стиль и характер</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">BARBER<span>HOUSE</span></a>
+      <nav class="nav" id="nav">
+        <a href="#services">Услуги</a>
+        <a href="#masters">Мастера</a>
+        <a href="#gallery">Работы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#booking" class="nav__cta">Записаться</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <p class="hero__label reveal">Премиальный барбершоп</p>
+      <h1 class="hero__title reveal">
+        Стиль, который<br>
+        <span>говорит за тебя</span>
+      </h1>
+      <p class="hero__subtitle reveal">
+        Мужские стрижки, борода и уход в атмосфере настоящего характера
+      </p>
+      <a href="#booking" class="btn btn--primary reveal">Записаться</a>
+    </div>
+    <div class="hero__scroll">
+      <span>Листай вниз</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label reveal">Что мы делаем</p>
+        <h2 class="section__title reveal">Услуги и цены</h2>
+      </div>
+      <div class="services__grid">
+        <article class="service-card reveal">
+          <div class="service-card__icon">✂</div>
+          <h3>Классическая стрижка</h3>
+          <p>Точная форма, чистые линии и идеальный силуэт</p>
+          <div class="service-card__price">1 500 ₽</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-card__icon">🧔</div>
+          <h3>Стрижка + борода</h3>
+          <p>Полный образ: волосы и борода в едином стиле</p>
+          <div class="service-card__price">2 200 ₽</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-card__icon">🔥</div>
+          <h3>Королевское бритьё</h3>
+          <p>Горячее полотенце, масло и идеально гладкая кожа</p>
+          <div class="service-card__price">1 800 ₽</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-card__icon">✨</div>
+          <h3>Укладка и стайлинг</h3>
+          <p>Форма и фиксация на весь день</p>
+          <div class="service-card__price">900 ₽</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-card__icon">👦</div>
+          <h3>Детская стрижка</h3>
+          <p>Бережно и с настроением для юных джентльменов</p>
+          <div class="service-card__price">1 000 ₽</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-card__icon">🧴</div>
+          <h3>Уход за волосами</h3>
+          <p>Маски, пилинг кожи головы и восстановление</p>
+          <div class="service-card__price">1 200 ₽</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Masters -->
+  <section class="section masters" id="masters">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label reveal">Команда</p>
+        <h2 class="section__title reveal">Наши мастера</h2>
+      </div>
+      <div class="masters__grid">
+        <article class="master-card reveal">
+          <div class="master-card__photo">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=500&fit=crop" alt="Алексей">
+          </div>
+          <div class="master-card__info">
+            <h3>Алексей</h3>
+            <p class="master-card__role">Топ-барбер</p>
+            <p class="master-card__exp">Стаж 8 лет · Fade & Beard</p>
+          </div>
+        </article>
+        <article class="master-card reveal">
+          <div class="master-card__photo">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=500&fit=crop" alt="Максим">
+          </div>
+          <div class="master-card__info">
+            <h3>Максим</h3>
+            <p class="master-card__role">Старший мастер</p>
+            <p class="master-card__exp">Стаж 6 лет · Classic & Style</p>
+          </div>
+        </article>
+        <article class="master-card reveal">
+          <div class="master-card__photo">
+            <img src="https://images.unsplash.com/photo-1599351431202-32e91c6e1f7b?w=400&h=500&fit=crop" alt="Дмитрий">
+          </div>
+          <div class="master-card__info">
+            <h3>Дмитрий</h3>
+            <p class="master-card__role">Барбер</p>
+            <p class="master-card__exp">Стаж 4 года · Modern cuts</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label reveal">Портфолио</p>
+        <h2 class="section__title reveal">Наши работы</h2>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c244b9?w=600&h=600&fit=crop" alt="Работа 1">
+        </div>
+        <div class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1593702095416-2c6d0e5c0b0d?w=600&h=600&fit=crop" alt="Работа 2">
+        </div>
+        <div class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&h=600&fit=crop" alt="Работа 3">
+        </div>
+        <div class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&h=600&fit=crop" alt="Работа 4">
+        </div>
+        <div class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1599351431202-32e91c6e1f7b?w=600&h=600&fit=crop" alt="Работа 5">
+        </div>
+        <div class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&h=600&fit=crop" alt="Работа 6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label reveal">Клиенты говорят</p>
+        <h2 class="section__title reveal">Отзывы</h2>
+      </div>
+      <div class="reviews__grid">
+        <article class="review-card reveal">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Лучший fade в городе. Алексей понимает с полуслова, что нужно. Атмосфера огонь.»</p>
+          <div class="review-card__author">— Игорь К.</div>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Пришёл впервые — теперь только сюда. Чистая работа, без спешки, кофе и музыка в точку.»</p>
+          <div class="review-card__author">— Артём С.</div>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Стригут сына уже третий год. Мальчик сам просит записаться. Рекомендую.»</p>
+          <div class="review-card__author">— Сергей М.</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section class="section booking" id="booking">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label reveal">Онлайн-запись</p>
+        <h2 class="section__title reveal">Записаться</h2>
+        <p class="section__desc reveal">Оставь заявку — мы перезвоним и подтвердим время</p>
+      </div>
+      <form class="booking-form reveal" id="bookingForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" placeholder="Как к вам обращаться" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="service">Услуга</label>
+            <select id="service" name="service" required>
+              <option value="">Выберите услугу</option>
+              <option value="classic">Классическая стрижка — 1500 ₽</option>
+              <option value="combo">Стрижка + борода — 2200 ₽</option>
+              <option value="shave">Королевское бритьё — 1800 ₽</option>
+              <option value="style">Укладка и стайлинг — 900 ₽</option>
+              <option value="kids">Детская стрижка — 1000 ₽</option>
+              <option value="care">Уход за волосами — 1200 ₽</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="master">Мастер</label>
+            <select id="master" name="master">
+              <option value="">Любой свободный</option>
+              <option value="alexey">Алексей</option>
+              <option value="maxim">Максим</option>
+              <option value="dmitry">Дмитрий</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="date">Дата</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="time">Время</label>
+            <select id="time" name="time" required>
+              <option value="">Выберите время</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+              <option value="18:00">18:00</option>
+              <option value="19:00">19:00</option>
+              <option value="20:00">20:00</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+        <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo">BARBER<span>HOUSE</span></a>
+        <p>Стиль. Характер. Качество.</p>
+      </div>
+      <div class="footer__contacts">
+        <p>📍 ул. Примерная, 12</p>
+        <p>📞 +7 (999) 123-45-67</p>
+        <p>🕐 Пн–Вс: 10:00 – 21:00</p>
+      </div>
+      <div class="footer__social">
+        <a href="#" aria-label="Telegram">TG</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="VK">VK</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 BARBER HOUSE. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
